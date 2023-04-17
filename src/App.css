@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.add-button {
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-field {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+.field-actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.delete-button,
+.delete-nested-button {
+  display: none;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form-field:hover .delete-button,
+.nested-field:hover .delete-nested-button {
+  display: block;
+}
+
+.field-inputs {
+  /* display: flex; */
+
+  align-items: center;
+}
+
+.field-name,
+.nested-field-name {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border:none;
+  outline: none;
+}
+
+.field-type,
+.nested-field-type {
+  flex-basis: 150px;
+  padding: 5px;
+  border:none;
+  outline: none;
+}
+
+.add-nested-button {
+  margin-left: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.save-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
